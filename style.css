@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient(#ffb8b8, #c56cf0);
+}
+
+header {
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header__logo {
+    width: 50px;
+    height: 50px;
+}
+
+header .header__home {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .header__home a {    
+    color: black;
+    text-decoration: none;
+}
+
+header .header__home a:hover {
+    text-decoration: underline;
+}
+
+body .header__line {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-bottom: 2px black solid;
+}
+
+main .section__products {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+main .section__products .section__products--tittle {
+    font-size: 25px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+
+main .section__products .section__products--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+main .section__products .section__products--container .products {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .section__products .section__products--container .products h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+main .section__products .section__products--container .products h2 img {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+main .section__products .section__products--container .products .products__img {
+    width: 200px;
+    height: 300px;
+    border: 2px white solid;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+    margin-bottom: 35px;
+}
+
+main .section__products .section__products--container .products button {
+    width: 80px;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px white solid;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+main .section__products .section__products--container .products button a {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+main .section__products .section__products--container .products button:hover {
+    scale: 1.1;
+}
+
+main .section__contact {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section__contact .section__contact--div h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .section__contact .section__contact--div p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main .section__contact .section__whatsapp {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .section__contact .section__whatsapp .whatsapp--icon-left {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+main .section__contact button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px white solid;
+}
+
+main .section__contact button:hover {
+    scale: 1.1;
+}
+
+main .section__contact button a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding: 0 8px;
+    font-weight: 500;
+}
+
+main .section__contact .section__whatsapp .whatsapp--icon-right {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+main .section__about-me {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section__about-me .section__about-me--div {
+    display: flex;
+    flex-direction: column;
+}
+
+main .section__about-me .section__about-me--div h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .section__about-me .section__about-me--div p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main .section__about-me .section__about-me--div img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer__logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer .footer__home {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .footer__home a {    
+    color: black;
+    text-decoration: none;
+}
+
+footer .footer__home a:hover {
+    text-decoration: underline;
+}
+
+body .footer__line {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom:  15px;
+    border-top: 2px black solid;
+}

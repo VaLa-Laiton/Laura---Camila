@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient(#ffb8b8, #c56cf0);
+}
+
+header {
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header__logo {
+    width: 50px;
+    height: 50px;
+}
+
+header .header__home {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .header__home a {    
+    color: black;
+    text-decoration: none;
+}
+
+header .header__home a:hover {
+    text-decoration: underline;
+}
+
+body .header__line {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-bottom: 2px black solid;
+}
+
+main .main__item {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main__item img {
+    width: 200px;
+    height: 300px;
+    border: 2px white solid;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+    margin-top: 35px;
+}
+
+main .main__item h3 {
+    margin-top: 10px;
+}
+
+main .section__contact {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+main .section__contact .section__contact--div p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main .section__contact .section__whatsapp {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .section__contact .section__whatsapp .whatsapp--icon-left {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+main .section__contact button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px white solid;
+}
+
+main .section__contact button:hover {
+    scale: 1.1;
+}
+
+main .section__contact button a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding: 0 8px;
+    font-weight: 500;
+}
+
+main .section__contact .section__whatsapp .whatsapp--icon-right {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+footer {
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer__logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer .footer__home {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .footer__home a {    
+    color: black;
+    text-decoration: none;
+}
+
+footer .footer__home a:hover {
+    text-decoration: underline;
+}
+
+body .footer__line {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom:  15px;
+    border-top: 2px black solid;
+    margin-top: 35px;
+}
